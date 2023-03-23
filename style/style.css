@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(../fontes/idroid.otf);
+}
+
+body{
+    background-color: aquamarine;
+    margin: 0px;
+
+}
+header{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.644),rgb(57, 243, 140));
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+}
+#principal{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+h1, h2 {
+    font-family: 'idroid' ;
+}
+header > p {
+    padding:10px;
+}
+nav{
+    text-align: left;
+
+}
+a{
+    color:green;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+main > article > section p > a {
+    background-color: rgb(124, 248, 176);
+}
+main > article > section > p > a:hover{
+    text-decoration: underline;
+}
+
+nav > a{
+    color:rgb(191, 245, 191);
+    background-color: none;
+    margin-right: 15px;
+}
+nav > a:hover {
+    background-color: rgb(12, 143, 12);
+    border-radius: 5px;
+    padding:10px;
+    color:black;
+}
+
+main{
+    background-color: white;
+    margin: 0px 100px;
+    padding: 20px 10px; 
+    border-radius: 0px 0px 10px 10px;
+    width: 800px;
+    margin: auto;
+    display: block;
+}
+.img-container {
+    text-align: center;
+    display: block;
+}
+footer{
+    background-color: rgb(3, 95, 3);
+    text-align: center;
+    color:white;
+    margin:0px;
+    border:0px;
+}
+footer > p {
+    margin-bottom:0px;
+}
+footer > p > a {
+    color:white;
+    font-weight: bold;
+}
+h1{
+    color:rgb(35, 119, 14);
+}
+h2{
+    background-color: rgb(195, 252, 233);
+    color:rgb(35, 119, 14);
+}
+.mais-info {
+    background-color: rgb(195, 252, 233);
+    border-radius: 10px;
+    padding:0px;
+}
+section > h3 {
+    background-color: rgba(39, 136, 15, 0.76);
+    color:white;
+    padding:5px;
+    border-radius: 10px 10px 0px 0px;
+}
+.mais-info > p{
+    text-indent: 20px;
+    padding:5px;
+}
+ul{ 
+    list-style-type: none;
+}
+.list-style-image {
+    list-style-image: url(../imagens/iconecerto.png);
+}
